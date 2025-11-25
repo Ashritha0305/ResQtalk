@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:backgroundTint="@color/red_light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voice Activation"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enable Background Voice Listening"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/switch_voice_enabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_trigger_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter trigger word (e.g., Help)"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edit_text"
+        android:layout_margin="8dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_test_trigger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Trigger Word"
+        android:backgroundTint="@color/red_light"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Save Settings"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/red_main"
+        android:layout_margin="16dp"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>
