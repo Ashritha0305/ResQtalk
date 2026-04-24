@@ -303,11 +303,7 @@ This project is licensed under the MIT License.
 ## 📞 Support
 
 For issues:
-1. Check logcat: `adb logcat | grep ResQtalk`
-2. Review SETUP_GUIDE.md for detailed information
-3. Verify all permissions in AndroidManifest.xml
-4. Ensure Google Maps API key is valid
-
+contact: ashrithap2005@gmail.com
 ---
 
 **Stay Safe! 🚨 ResQtalk - Always There in Emergencies**
